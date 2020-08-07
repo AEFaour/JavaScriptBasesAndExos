@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Javascript - Bibliothèque Jquery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/sunny/theme.min.css"
+          integrity="sha512-D7I8i+5c8pBasr1IqvyTFr6wQFHKXJ9XWlij0Y3W9zBjofUcXY24dLaGJI8zLe252GhHuH6L6PvWKXGGrkA4DQ=="
+          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.structure.min.css"
+          integrity="sha512-oM24YOsgj1yCDHwW895ZtK7zoDQgscnwkCLXcPUNsTRwoW1T1nDIuwkZq/O6oLYjpuz4DfEDr02Pguu68r4/3w=="
+          crossorigin="anonymous"/>
+
+</head>
+<body>
+<input type="text" id="date">
+<!-- Evenement exemple -->
+<h1>Javascript - Bibliothèque Jquery</h1>
+<p id="paragraphe">Exemple evenement, cliquer sur le titre</p>
+
+<!-- Méthodes effets exemples -->
+<!-- css -->
+<hr>
+<h2>Cliquer pour changer les styles css des p et de la div ci dessous</h2>
+<div id="ma_div" style='background-color:transparent'>
+    <p>p1</p>
+    <p>p2</p>
+    <p>p3</p>
+</div>
+
+<!-- Show/Hide -->
+<hr>
+<p class='hide'>Méthode hide</p>
+<p class='show' style='display:none;'>Méthode show</p>
+<p class='hide2'>Méthode hide : 2 secondes</p>
+<p class='hide3'>Méthode hide : slow</p>
+<p class='hide4' style='background-color:green'>Méthode hide : 8 secondes, linear</p>
+<p class='hide5' style='background-color:green'>Méthode hide : 8 secondes, swing</p>
+
+<!-- animate -->
+<hr>
+<h3 id='1'>Méthode animate sans callback, cliquer ici pour modifier les tailles de la div ci dessous</h3>
+<div id='anim1' style='background-color:green;height:40px; width:30px'></div>
+<h3 id='2'>Méthode animate avec callback, cliquer ici pour modifier les tailles de la div ci dessous</h3>
+<div id='anim2' style='background-color:green;height:40px; width:30px'></div>
+<h3 id='3'>Méthode animate avec callback et repétée, cliquer ici pour modifier les tailles de la div ci dessous</h3>
+<div id='anim3' style='background-color:green;height:40px; width:30px'></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+        integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA=="
+        crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

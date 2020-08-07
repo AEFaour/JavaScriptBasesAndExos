@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Event</title>
+</head>
+<body>
+<!--
+onclick / ondblclick / onhover / onmouseover / onmouseleave / onchange ...
+-->
+
+<!--
+La déclaration d'un événement en tant qu'attribut n'est plus recommandé
+<h4 onclick="confirm('ça va,')">onclick</h4>
+-->
+<h4 id="h4onClick">onclick</h4>
+<span id="reponseClick"></span>
+
+<h4 id="h4onDbClick">dbclick</h4>
+<img src="Durkheim.jpg" alt="">
+
+<h4>Onresize</h4>
+<label for="largueur">Largueur intérieure de la fenêtre</label>
+<input type="text" id="largueur" disabled>
+<label for="hauteur">Hauteur intérieure de la fenêtre</label>
+<input type="text" id="hauteur" disabled>
+
+<h4>onfocus & onblur</h4>
+<label for="mdp">Ici votre mot de passe</label>
+<input type="password" value="doranco" id="mdp">
+
+<h4>onhover</h4>
+<h4>onmousehover & onmouseout</h4>
+
+<h4>onmouseup, onmousedown & onmousewheel</h4>
+<p id="loremPara">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet animi deserunt, dignissimos dolores
+    dolorum ex fugiat magnam magni minima molestiae quae quia, quidem quo quos similique soluta tenetur voluptatum?
+
+</p>
+
+<h4>oncopy, oncut & onpaste</h4>
+<input type="text" value="Hello world!" id="copyText">
+<p id="resultat"></p>
+
+<h4>onkeypress :  onkeydown & onkeyup</h4>
+<label for="mpd2">Mot de passe</label>
+<input type="text" id="mpd2">
+
+<script src="script.js"></script>
+</body>
+</html>

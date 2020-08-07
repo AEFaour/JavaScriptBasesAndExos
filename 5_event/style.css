@@ -1,0 +1,26 @@
+.red{
+    width: 100px;
+    height: 100px;
+    background: #fa0000;
+    border: 1px solid #000;
+}
+
+img {
+    display: none;
+}
+
+label {
+    display: block;
+}
+
+input, button{
+    padding: 10px;
+    width: 200px;
+    display: block;
+}
+/*
+div {
+display: flex;
+flex-direction: row;
+}
+*/

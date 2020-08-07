@@ -1,0 +1,15 @@
+.danger{
+    padding: 2%;
+    background:red;
+    color: #fff;
+}
+.success{
+    padding: 2%;
+    background:green;
+    color: #fff;
+}
+#changeColor {
+    padding: 2%;
+    background:#000;
+    color: #fff;
+}
